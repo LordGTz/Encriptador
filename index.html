@@ -4,12 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Proyecto Encriptador</title>
 </head>
 <body>
-    <h1>Hola Mundo</h1>
+    <header class="header-principal"><h1>Enigma</h1></header>
+    <main class="main-principal">
+        <form class="main-entrada">
+            <textarea class="entrada" name="" id="" cols="100" rows="30"></textarea>
+            <button id="encriptar">Encriptar Mensaje</button>
+            <button id="desencriptar">Desencriptar Mensaje</button>
+        </form>
+        <section class="main-resultado">
+            <figure>
+
+            </figure>
+            <textarea class="resultado" id="resultado" cols="100" rows="30"></textarea>
+            <button id="copiar">Copiar Mensaje en clave</button>
+        </section>
+    </main>
+    <footer class="footer-principal">
+        <h3>&#169 Express 2022. Todos los derechos del Codigo "Enigma" Reservados.</h3>
+    </footer>
 <script src="js/script.js"></script>
 </body>
 </html>
