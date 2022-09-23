@@ -16,17 +16,18 @@
     <header class="header-principal"><h1 id="titulo">Enigma</h1></header>
     <main class="main-principal">
         <form class="main-entrada">
-            <textarea class="entrada" id="entrada" cols="100" rows="30"></textarea>
+            <textarea class="entrada" id="entrada" placeholder="Escribe tu mensaje para luego cifrarlo"></textarea>
             <div>
                 <button id="encriptar">Encriptar Mensaje</button>
                 <button id="desencriptar">Desencriptar Mensaje</button>
             </div>
         </form>
-        <figure class="sin-resultado">
+        <figure class="sin-resultado" id="sin-resultado">
             <img src="images/sin-resultado.svg" alt="sin-resultado">
+            <p>No hay nada por aca...</p>
         </figure>
-        <section class="main-resultado">
-            <textarea class="resultado" id="resultado" cols="100" rows="30">hoal</textarea>
+        <section class="main-resultado" id="con-resultado">
+            <textarea class="resultado" id="resultado" cols="30" rows="10"></textarea>
             <button id="copiar">Copiar Mensaje en clave</button>
         </section>
     </main>
